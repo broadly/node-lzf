@@ -1,24 +1,28 @@
 {
-    "name": "lzf",
-    "version": "0.3.0",
-    "description": "lzf compression module for nodejs",
-    "keywords": ["lzf", "compression", "buffer"],
-    "author": "Ian Babrou <ibobrik@gmail.com>",
-    "engines": [
-        "node"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/Topface/node-lzf.git"
-    },
-    "dependencies": {
-        "nan": "2.0.9"
-    },
-    "directories": {
-        "lib": "./lib"
-    },
-    "main": "./index",
-    "scripts": {
-        "test": "node test/test.js"
-    }
+  "name": "lzf",
+  "version": "0.3.1",
+  "description": "lzf compression module for nodejs",
+  "keywords": [
+    "lzf",
+    "compression",
+    "buffer"
+  ],
+  "author": "Ian Babrou <ibobrik@gmail.com>",
+  "engines": [
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Topface/node-lzf.git"
+  },
+  "dependencies": {
+    "nan": "2.0.9"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "node test/test.js"
+  }
 }
