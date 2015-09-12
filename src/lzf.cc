@@ -44,9 +44,7 @@ NAN_METHOD(compress) {
         return;
     }
 
-    Nan::MaybeLocal<Object> BufferOut = NewBuffer(bufferOut, result);
-    //free(bufferOut);
-
+    Nan::MaybeLocal<Object> BufferOut = Nan::NewBuffer(bufferOut, result);
     info.GetReturnValue().Set(BufferOut.ToLocalChecked());
 }
 
@@ -80,8 +78,6 @@ NAN_METHOD(decompress) {
     }
 
     Nan::MaybeLocal<Object> BufferOut = Nan::NewBuffer(bufferOut, result);
-    //free(bufferOut);
-
     info.GetReturnValue().Set(BufferOut.ToLocalChecked());
 }
 
